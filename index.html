@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Scoreboard</title>
+</head>
+<body>
+  <div id="container" class="container">
+    <div class="home">
+      <h2 class="away__label">Home</h2>
+      <h3 class="home__score" id="home__score">000</h3>
+      <button onclick="addOneHome()">+1</button>
+      <button onclick="addTwoHome()">+2</button>
+      <button onclick="addThreeHome()">+3</button>
+    </div>
+    <div class="away">
+      <h2 class="away__label">Away</h2>
+      <h3 class="away__score" id="away__score">000</h3>
+      <button onclick="addOneAway()">+1</button>
+      <button onclick="addTwoAway()">+2</button>
+      <button onclick="addThreeAway()">+3</button>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
